@@ -325,8 +325,8 @@ justify-content: space-between;
     padding-bottom: 10px;
 }
 .menu_nav a{
-    justify-content: space-around;
-    margin-left: 5.5%;
+    justify-content: space-between;
+    padding-left: 5.5%;
     color: white;
     margin-top: 40px;
     text-decoration: none;
