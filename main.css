@@ -1,0 +1,423 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+
+    margin: 0;
+    background-image: url("cooking1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    border-radius: 30px;
+         background-size:cover;
+            backdrop-filter: blur(20px);
+            border-bottom: 3px solid white;
+                        border-top: 3px solid white;
+}
+.logo {
+   color: white;
+   letter-spacing: 5px;
+   font-weight: bold;
+   font-size: 30px;
+   display: inline-block;
+   text-shadow: 2px 2px 8px bisque;;
+}
+
+nav ul li{
+    list-style: none;
+    padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 65px;
+        padding-left: 30px;
+        border-radius: 10px;
+}
+nav ul li a{
+letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px bisque;
+        color: white;
+        transition: 0.3s ease-in-out;
+            border-top: 2px solid transparent;
+    }
+nav ul li a:hover{
+    border-top: 2px solid bisque;
+    transition: 0.3s ease-in-out;
+    font-size: 24px;
+}
+
+.container{
+        text-align: center;
+        margin-top: 150px;
+        padding-top: 10px;
+        border-top: 3px solid white;
+                border-bottom: 3px solid white;
+                height: 40vh;
+    color: white;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    
+}
+.container h1{
+
+    letter-spacing: 5px;
+    font-size: 65px;
+    text-shadow: 2px 2px 8px bisque;
+}
+.container p {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.container button{
+    background: transparent;
+    border: none;
+    /* border-top: 3px solid white; */
+    
+    margin-top: 25px;
+    
+}
+.container button a{
+    letter-spacing: 5px;
+        font-weight: bold;
+        padding-top: 10px;
+        border-top: 3px solid transparent;
+        color: white;
+            font-size: 20px;
+            text-decoration: none;
+            transition: 0.5s ease-in-out;
+            border: 3px solid white;
+                padding: 10px
+}
+.container button a:hover{
+    /* border-top: 3px solid bisque; */
+    /* color: white; */
+    padding: 15px;
+    font-size: 22px;
+    /* border-color: bisque; */
+            transition: 0.5s ease-in-out;
+        }
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    border: 3px solid white;
+    /* display: inline-block; */
+}
+.logo1 img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+nav li{
+    display: inline-block;
+}
+#featured{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-bottom:30px;
+height:  min-content;
+border-radius: 30px;
+    backdrop-filter: blur(20px);
+    justify-content: top;
+    border-top: 3px solid white;
+        border-bottom: 3px solid white;
+        /* border-right: 1px solid white; */
+}
+.card{
+    /* margin-left: 5%; */
+justify-content: space-between;
+/* border: 1px solid bisque; */
+}
+.card a{
+    color: white;
+    display: block;
+    /* text-align: center; */
+    /* float: center; */
+    margin-left: 38%;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 8px bisque;
+        border-top: 3px solid transparent;
+    transition: 0.5s ease-in-out;
+    
+}
+.card a:hover {
+    color: lightblue;
+    border-top: 3px solid bisque;
+        transition: 0.5s ease-in-out;
+}
+#featured h2{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 8px bisque;
+    letter-spacing: 5px;
+    /* justify-content: center; */
+    border-bottom: 3px solid white;
+    border-radius: 30px;
+
+}
+
+
+#featured .card{
+    height: 90%;
+    width: 87%;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    margin-left: 6.5%;
+        margin-top: 30px;
+    display: inline-flex;
+        flex-wrap: wrap;}
+#img{
+    border: 3px solid white;
+        height: 300px;
+        width: 300px;
+        margin-left: 2.5%;
+                margin-right: 2.5%;
+        border-radius: 15px;
+        margin-bottom: 5%;
+        /* filter: invert(100%); */
+        color: transparent;
+        transition: 0.7s ease-in-out;
+
+}
+#featured .image1{
+ 
+    background-image: url("margarita-removebg-preview.png");
+    background-size:contain;
+    
+}
+#featured .image2 {
+
+    background-image: url("pizza2.png");
+    background-size: cover;
+}
+#featured .image3 {
+
+    background-image: url("pasta1.png");
+    background-size:auto;
+    transform:rotateY(100px);
+}
+#featured .image4 {
+
+    background-image: url("pasta2.png");
+    background-size: cover;
+}
+#featured .image5 {
+
+    background-image: url("Rosita Combo.png");
+    background-size: cover;
+}
+#featured .image6 {
+
+    background-image: url("bread1.png");
+    background-size: cover;
+}
+
+#img:hover .text{
+    transition: 0.7s ease-in-out;
+    color: white;
+    text-shadow: 2px 2px 8px bisque;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#img:hover{
+    transition: 0.7s ease-in-out;
+    background-color: rgba(87, 87, 87, 0.7);
+}
+.card .text {
+    color: transparent;
+    font-weight:bold;
+    display: inline;
+    font-size: 25px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    float: left;
+    transition: 0.7s ease-in-out;
+}
+#featured p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+}
+/* .container button a:hover{
+    color: lightblue;    
+} */
+
+/* -------------------------------------------
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+*/
+.container1{
+
+    /* height: 290vh; */
+    height: max-content;
+    width: 100%;
+    /* background-color: transparent; */
+            backdrop-filter: blur(20px);
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            border-radius: 15px;
+            font-size: 25px;
+                color: white;
+                border-radius: 30px;
+                letter-spacing: 5px;
+    /* margin-bottom: 5; */
+    margin-top: 10%;
+    /* margin-bottom: 50px; */
+    padding: 0;
+}
+.container1 img{
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        height: 200px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-weight: bold;
+        /* margin: auto;
+            width: 640px;
+            padding: 50px; */
+        /* margin-left: 50%; */
+}
+.container1 dl{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.container1 dd{
+   color: white;
+   font-weight: none;
+   font-size: 15px;
+   padding-bottom: 15px;
+   
+}
+.container1 dt {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.menu_nav a{
+    justify-content: space-around;
+    padding-left: 6%;
+    color: white;
+    margin-top: 40px;
+    text-decoration: none;
+    border-top: 3px solid transparent;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+    /* margin-bottom: 50px; */
+}
+.menu_nav{
+    margin-bottom: 75px;
+    font-weight: bold;
+}
+.menu_nav a:hover {
+    color: bisque;
+    border-top: 3px solid bisque;
+    transition: 0.5s ease-in-out;
+    /* font-size: 23px; */
+}
+.food h3{
+     text-align: center;
+
+}
+.food{
+        margin-top: 50px;
+}
+.container3{
+    margin-top: 5%;
+    backdrop-filter: blur(20px);
+    border-top: 3px solid white;
+        border-bottom: 3px solid white;
+    border-radius: 30px;
+    margin-bottom: 7%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.container3 h3{
+    font-size: 45px;
+}
+.container3 dt{
+    font-size: 35px;
+    padding-top: 35px;
+}
+.container3 dd{
+/* margin-top: 2%; */
+font-size: 25px;
+}
+.container4{
+    /* width: 600px;
+    margin-left: 50vh;
+    margin-top: 5%;
+     margin-bottom: 5%;
+    height: 1000px;
+    border: 3px solid white;
+    display: flex;
+    text-align: center;
+    backdrop-filter: blur(20px); */
+        margin-top: 5%;
+        backdrop-filter: blur(20px);
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        height: 95vh;
+        color: white;
+        text-align: center;
+        letter-spacing: 5px;
+}
+.container4 p{
+    font-size: 30px;
+
+}
+.container4 h3{
+    margin-top: 5%;
+        font-size: 45px;
+}
+.container4 dt{
+    font-size: 35px;
+        padding-top: 35px;
+}
+.container4 dd {
+    font-size: 25px;
+    padding-top: 20px;
+}
+/* #city img{
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: red; */
+    /* background-image: url("sf.png");
+    background-size:contain; 
+    } 
+/* .container dl dt{
+} */
