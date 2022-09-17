@@ -337,7 +337,7 @@ justify-content: space-between;
 }
 .menu_nav{
     margin-bottom: 75px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .menu_nav a:hover {
     color: bisque;
