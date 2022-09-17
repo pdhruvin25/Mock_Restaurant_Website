@@ -326,7 +326,7 @@ justify-content: space-between;
 }
 .menu_nav a{
     justify-content: space-around;
-    padding-left: 6%;
+    padding-left: 4%;
     color: white;
     margin-top: 40px;
     text-decoration: none;
